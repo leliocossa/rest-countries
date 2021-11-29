@@ -1,4 +1,4 @@
-# REST Countries API
+# REST Country API
 ![Design preview for the REST Countries API with color theme switcher coding challenge](./design/home.png)
 
 ## Welcome! 👋
