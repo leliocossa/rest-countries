@@ -1,27 +1,26 @@
-# Crountries
+# REST Countries API
+![Design preview for the REST Countries API with color theme switcher coding challenge](./design/home.png)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.3.
+## Welcome! 👋
 
-## Development server
+Thanks for checking out this front-end coding challenge.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+[2iBi](https://github.com/2iBi/developer-challenge) front-end challenges allow you to improve your skills in a real-life workflow.
 
-## Code scaffolding
+**To do this challenge, you need a good understanding of JavaScript.**
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## The challenge
 
-## Build
+Your challenge is to integrate with the [REST Countries API](https://restcountries.com) to pull country data and display it like in the designs.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Your users should be able to:
 
-## Running unit tests
+- See all countries from the API on the homepage
+- Implement a mechanism within the REST client to export country information to XLS, CSV and XML format
+- Click on a country to see the flag
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Material Design 🖼
+- [Figma](https://bit.ly/3o4F25u)
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Live Site
+https://countries.leliocossa.me/
