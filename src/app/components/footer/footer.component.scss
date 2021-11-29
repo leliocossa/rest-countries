@@ -1,0 +1,23 @@
+.site-footer{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1rem;
+    width: 100%;
+    right: 0;
+    justify-content: flex-end;
+    background-color: var(--white);
+
+    small{
+        margin: 0 4rem;
+        color: var(--hover);
+    }
+
+    @media (min-width: 376px) {
+        .site-footer{
+            width: 100%;
+        }
+    }
+}

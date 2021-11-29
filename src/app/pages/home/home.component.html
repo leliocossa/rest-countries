@@ -1,0 +1,26 @@
+<div>
+<div class="country-filters">
+    <div class="search-filter input-shadow">
+      <span class="fa fa-search"></span>
+      <input
+        type="text"
+        placeholder="Pesquise um país ...."
+        [(ngModel)]="searchFilter"
+      />
+    </div>
+  
+    <app-dropdown
+      placeholder="Exportar País"
+      [values]="exportOptions"
+      [(value)]="exportType"
+    ></app-dropdown>
+  </div>
+  
+  <div class="country-cards">
+    <app-country-card
+      *ngFor="let country of countries"
+      [country]="country"
+    ></app-country-card>
+  </div>
+
+  <app-footer></app-footer>

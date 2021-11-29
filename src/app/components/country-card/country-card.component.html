@@ -1,0 +1,37 @@
+<div
+  *ngIf="country"
+  [routerLink]="'/' + country.name"
+  class="country-card input-shadow"
+>
+  <div class="country-card-info">
+        <h2>{{ country.name }}</h2>
+        <p>
+            <strong>Capital:</strong>
+            {{ country.capital }}
+        </p>
+        <p>
+            <strong>Região:</strong>
+            {{ country.region }}
+        </p>
+        <p>
+            <strong>Sub-Região:</strong>
+            {{ country.subregion }}
+        </p>
+        <p>
+            <strong>População:</strong>
+            {{ country.population | number: '1.0' }}
+        </p>
+        <p>
+            <strong>Áreao:</strong>
+            {{ country.area }}
+        </p>
+        <p>
+            <strong>Fuso Horário:</strong>
+            {{ country.timezones }}
+        </p>  
+        <p>
+            <strong>Nome Nativo:</strong>
+            {{ country.nativeName }}
+        </p>                          
+  </div>
+</div>

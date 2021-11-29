@@ -1,0 +1,19 @@
+.about-layout{
+    padding: 1rem;
+    @media (min-width: 376px) {
+        padding: 5rem;
+      }
+      h3 {
+        padding-bottom: 1rem;
+        @media (min-width: 376px) {
+          font-size: 1.5rem;
+        }
+      }
+      p{
+          padding-bottom: 1rem;
+          text-align: justify;
+      }
+      a{
+          text-decoration: none;
+      }
+}

@@ -1,0 +1,62 @@
+.country-card {
+    overflow: hidden;
+    border-radius: 0.5rem;
+    font-size: 15px;
+    width: 326px;
+    margin: 0.25rem 0 2rem;
+    background-color: var(--white);
+    cursor: pointer;
+    @media (min-width: 376px) {
+      width: 350px;
+    }
+    h2 {
+      font-size: 24px;
+      color: var(--text);
+      line-height: 1;
+      padding-bottom: .5em;
+      margin: 0 0 .5em;
+      border-bottom: 2px solid var(--green);
+      transition: color .30s ease, border .30s ease;
+    }
+  
+    p {
+      padding: 0.25rem 0;
+      line-break: anywhere;
+      transition: color .30s ease;
+      color: var(--hover);
+    }
+  
+    &-img {
+      height: 200px;
+      overflow: hidden;
+      position: relative;
+      img {
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+  
+    &-info {
+      padding: 2rem 1.5rem 2.5rem;
+    }
+
+    &:hover,
+		&:focus {
+      box-shadow: 0px 0px 0px 1px var(--green) inset;
+      background: var(--green);
+      transform: scale(1.02);
+      color: var(--white);
+      h2{
+        border-bottom: 2px solid #fff;
+        color: var(--white);
+      }
+      p{
+        color: var(--white);
+      }
+      
+    }
+
+  }
