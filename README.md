@@ -23,4 +23,4 @@ Your users should be able to:
 - [Figma](https://bit.ly/3o4F25u)
 
 ## Live Site
-https://countries.leliocossa.me/
+https://country.leliocossa.me/
