@@ -1,11 +1,11 @@
 .site-footer{
-    position: fixed;
+    position: unset;
     bottom: 0;
     display: flex;
     margin-right: auto;
     margin-left: auto;
     padding: 1rem;
-    width: 100%;
+    width: unset;
     right: 0;
     justify-content: flex-end;
     background-color: var(--white);
@@ -16,8 +16,7 @@
     }
 
     @media (min-width: 376px) {
-        .site-footer{
-            width: 100%;
-        }
+        position: fixed;
+        width: 100%;
     }
 }
